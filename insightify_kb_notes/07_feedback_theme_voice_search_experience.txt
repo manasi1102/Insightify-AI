@@ -1,0 +1,11 @@
+Title: Feedback Theme: Voice Search Experience
+Date: 2024-04-02
+Source: Customer Reviews (100 rows)
+
+Summary:
+- Negative reviews highlight mic permissions, language mismatch, and silent failures.
+- Voice search appreciated when functional — requests for Hindi, Spanish, Tamil support.
+
+Action Items:
+- [QA] Improve multilingual NLP fallback detection
+- [CX] Update FAQs with voice setup steps

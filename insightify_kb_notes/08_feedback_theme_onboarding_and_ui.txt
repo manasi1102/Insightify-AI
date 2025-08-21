@@ -1,0 +1,12 @@
+Title: Feedback Theme: Onboarding and UI
+Date: 2024-04-05
+Source: Customer Reviews (100 rows)
+
+Summary:
+- Users liked illustrations and copy tone in onboarding.
+- Several complaints around onboarding reappearing for returning users.
+- Dark mode visuals consistently praised as 'clean' and 'modern'.
+
+Action Items:
+- [UX] Add logic to skip onboarding on app re-install
+- [CX] Reinforce branding tone across UI strings

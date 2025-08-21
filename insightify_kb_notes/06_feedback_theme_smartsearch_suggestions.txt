@@ -1,0 +1,12 @@
+Title: Feedback Theme: SmartSearch Suggestions
+Date: 2024-03-30
+Source: Customer Reviews (100 rows)
+
+Summary:
+- Frequent praise for SmartSearch speed and layout.
+- Repetitive or irrelevant suggestions reported in 26% of reviews.
+- Users want control over clearing or customizing suggested queries.
+
+Action Items:
+- [UX] Add 'Clear Suggestions' button to UI
+- [PM] Explore settings toggle for personalized search history

@@ -1,0 +1,12 @@
+Title: Email Thread: Feedback Visibility Fix Proposal
+Date: 2024-03-22
+Source: Internal Emails
+
+Summary:
+- Multiple team members noted drop in user feedback after nav refresh.
+- CX proposed reintroducing form link in user settings.
+- UX committed to placing it under the 'Help' tab.
+
+Action Items:
+- [UX] Add feedback form link in new nav
+- [PM] Announce change in next release notes

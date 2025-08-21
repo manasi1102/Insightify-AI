@@ -1,0 +1,13 @@
+Title: Week 13 Voice Metrics & Query Drop Analysis
+Date: 2024-04-01
+Source: Weekly Report
+
+Summary:
+- Voice search usage increased 11%, but failed query rate also rose to 26%.
+- Top cause: non-English inputs and noisy environment errors.
+- SmartSearch personalization A/B tests showed 6.8% CTR lift but higher complaints in Test Group B.
+
+Action Items:
+- [Data] Segment failed voice inputs by device locale
+- [UX] Draft error fallback UX for noisy query environments
+- [PM] Review personalization model guardrails

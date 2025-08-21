@@ -1,0 +1,13 @@
+Title: Week 15 Beta Feedback Trends
+Date: 2024-04-15
+Source: Weekly Report
+
+Summary:
+- Top-rated feature: Quick Suggest (82% positive).
+- Onboarding completion rate dropped by 13% on re-installs.
+- Crash frequency highest on iOS 16.5 due to layout bug with keyboard overlap.
+
+Action Items:
+- [UX] Simplify onboarding flow for returning users
+- [QA] Patch layout shift issue on iOS 16+
+- [CX] Draft proactive note for beta users with fix ETA

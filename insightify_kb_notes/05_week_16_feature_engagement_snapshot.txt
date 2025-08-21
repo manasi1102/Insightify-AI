@@ -1,0 +1,13 @@
+Title: Week 16 Feature Engagement Snapshot
+Date: 2024-04-22
+Source: Weekly Report
+
+Summary:
+- Engagement with new Filters UI rose by 22%.
+- Dark mode sentiment + NPS improved by 1.1 points (avg: 8.4).
+- Feedback form submissions down 31% — linked to nav change.
+
+Action Items:
+- [UX] Restore feedback access in settings drawer
+- [Data] Correlate NPS uplift with visual theme toggles
+- [PM] Include Filters UX in Sprint 17 roadmap

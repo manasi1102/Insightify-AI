@@ -1,1 +1,14 @@
+Title: Week 12 CX Trends & Ticket Patterns
+Date: 2024-03-25
+Source: Weekly Report
 
+Summary:
+- Support volume rose 17% week-over-week, mostly from Android users on app startup lag.
+- Top tags: search freeze, onboarding delay, voice search bug.
+- Churn risk identified in users aged 35–44 — highest app uninstall rate post-query.
+- CSAT dropped to 7.4; marked as priority segment by CX leadership.
+
+Action Items:
+- [CX] Flag crash clusters to QA, increase proactive outreach
+- [UX] Reevaluate onboarding delays for Android 11
+- [PM] Align ticket themes with upcoming Sprint 15 scope

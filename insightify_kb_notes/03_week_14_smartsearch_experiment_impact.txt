@@ -1,0 +1,13 @@
+Title: Week 14 SmartSearch Experiment Impact
+Date: 2024-04-08
+Source: Weekly Report
+
+Summary:
+- CTR increased 8.1% in personalized SmartSearch results vs. static list baseline.
+- Average time-to-first-click reduced by 410ms.
+- Top feedback: irrelevant suggestions on returning user queries.
+
+Action Items:
+- [Data] Train context-aware suggestions from session history
+- [UX] Cap suggestion list to 4 dynamic + 1 static fallback
+- [CX] Track repeat query complaints in support inbox

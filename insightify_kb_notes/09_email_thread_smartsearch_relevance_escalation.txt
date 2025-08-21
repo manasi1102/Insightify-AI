@@ -1,0 +1,12 @@
+Title: Email Thread: SmartSearch Relevance Escalation
+Date: 2024-03-20
+Source: Internal Emails
+
+Summary:
+- Product and Analyst teams flagged user complaints on irrelevant SmartSearch results.
+- Discussion around tying personalization logic more tightly to recent query sessions.
+- Engineering team open to adding session-based re-ranker.
+
+Action Items:
+- [Data] Share query clusters by frequency and click depth
+- [Eng] Scope implementation plan for session-based re-ranker

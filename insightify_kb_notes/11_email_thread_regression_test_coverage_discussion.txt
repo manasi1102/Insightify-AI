@@ -1,0 +1,12 @@
+Title: Email Thread: Regression Test Coverage Discussion
+Date: 2024-03-27
+Source: Internal Emails
+
+Summary:
+- QA team flagged gaps in test cases after crash from null SmartSearch labels.
+- Proposal to build automated tests for malformed input and chip rendering fallback.
+- Support for crash spike monitor suggested by Analyst team.
+
+Action Items:
+- [QA] Add null input tests to regression suite
+- [Data] Create post-release crash alerting logic

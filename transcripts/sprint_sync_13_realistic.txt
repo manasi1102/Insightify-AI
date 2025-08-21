@@ -1,0 +1,43 @@
+[2024-03-21 | Sprint Sync #13 – SmartSearch Stability Review]
+
+Priya (PM): Alright team, let’s jump in. First up — Ravi, how’s the QA looking for the latest SmartSearch build?
+
+Ravi (QA): We ran the regression suite on v2.1.3 yesterday. The good news — the crash related to the auto-suggestion debounce is resolved. Pixel, Samsung, and even Motorola passed. But we still have intermittent scroll lag on Android 12.
+
+Priya (PM): Is that the same issue flagged in TCK-259?
+
+Ravi (QA): Yep. The lag spikes when the search input is used while scrolling through filters rapidly. It’s not a crash, but it degrades experience.
+
+Karim (UX): Makes sense. I actually noticed that in user testing. The filters UI is getting cluttered when more than 4 chips are applied. I’m exploring a collapsible chip group to simplify the flow.
+
+Anita (CX): That might help. We’ve had 38 tickets in the last week where users said, quote: “Search is slow and jumpy.” Most of those are on lower-end Android phones.
+
+Chris (Analyst): That tracks with what I’m seeing. Latency increased by 190ms on Android for long queries with filters. I pulled a heatmap and saw most drops in engagement when filters are toggled repeatedly.
+
+Priya (PM): So next steps — Karim, can you finalize the revised chip group design by Friday?
+
+Karim (UX): Absolutely. I’ll sync with DesignOps and share the Figma updates in the morning.
+
+Priya (PM): And Ravi, is the lag issue something we can patch in a hotfix?
+
+Ravi (QA): Possibly. I’ll loop in Dev to throttle re-rendering on filter changes. We might be able to patch it in 2.1.3.1 without full regression.
+
+Anita (CX): Also — minor but worth flagging — voice query accuracy dipped slightly. Support got a few reports that voice input truncates when there's background noise.
+
+Chris (Analyst): That’s in the metrics too. iOS voice sessions dropped by 6%. Could be mic permissions or model fallback. I’ll dig into logs.
+
+Priya (PM): Let’s flag that for Sprint 14. Focus for now is wrapping 2.1.3 cleanly.
+
+Ravi (QA): Got it. I’ll prioritize scroll lag and voice bug repros.
+
+Karim (UX): And I’ll ping Legal — we’re missing “Terms of Use” link on the new search screen. Just caught that this morning.
+
+Priya (PM): Good catch. Let’s not launch without that.
+
+Chris (Analyst): One quick thing — do we want to track filter usage rate post-patch? I can add an event and push it to Amplitude.
+
+Priya (PM): Yes please. Let’s see if the new chip layout improves engagement.
+
+Alright folks — thanks for the updates. I’ll write up the action items and share on Notion within the hour.
+
+Meeting adjourned.

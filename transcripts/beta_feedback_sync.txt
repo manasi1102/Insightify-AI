@@ -1,0 +1,33 @@
+[2024-03-29 | Beta Feedback Sync – TestFlight Reviews & Survey Results]
+
+Priya (PM): Let’s review what we’ve learned from the latest beta. Anita, you sent out the survey — what did we hear?
+
+Anita (CX): We had 243 responses. Overall sentiment is positive, but a few themes stood out. Users love the new “Quick Suggest” feature — 82% rated it as “very useful.” But around 28% said it shows repetitive suggestions.
+
+Chris (Analyst): That aligns with what we saw in logs — if users submit the same base query multiple times, we’re not surfacing enough variety in top results.
+
+Karim (UX): That might be a design limitation. The current chip-based suggestions pull from a static pool. I can modify it to include one dynamic slot based on query context.
+
+Priya (PM): Good idea. What about the new onboarding flow?
+
+Anita (CX): Mixed. People liked the illustrations and tone, but 16% dropped off before completing it. Some said it felt too long or unnecessary on reinstall.
+
+Ravi (QA): Technically, we don’t distinguish between new installs and reinstalls — so everyone sees onboarding again.
+
+Chris (Analyst): I can add a flag to exclude known users based on device ID + token persistence. Should reduce unnecessary onboarding.
+
+Karim (UX): And I’ll shorten the flow — maybe condense it to 2 steps with an optional tutorial video.
+
+Priya (PM): Great. Let’s talk about stability — any bugs flagged?
+
+Ravi (QA): One recurring crash on iOS 16.5 when the keyboard overlaps the “Refine Search” panel. It’s a layout shift issue.
+
+Karim (UX): I’ll patch the bottom padding. Probably a safe hotfix.
+
+Anita (CX): Also worth noting — users gave high marks to the dark mode update. Several said it felt “polished” and “professional.”
+
+Priya (PM): Let’s double down on that tone across the app. Wrapping up: Karim to patch suggestion pool and onboarding steps, Ravi to fix layout crash, Chris to track reinstalls, Anita to prep release notes.
+
+Thanks all. Beta’s looking strong!
+
+Meeting adjourned.

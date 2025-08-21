@@ -1,0 +1,29 @@
+[2024-03-26 | Patch 2.1.3 Postmortem – Learnings & Next Steps]
+
+Priya (PM): Thanks for joining. Let’s debrief the 2.1.3 release. Overall uptime was solid, but there were some issues post-deploy. Ravi, want to kick us off?
+
+Ravi (QA): Sure. The patch passed all pre-release QA, but once live, we got over 40 crash reports in the first 12 hours. Most were tied to a null pointer in the SmartSearch filter rendering.
+
+Chris (Analyst): Yeah, I traced it back to a bug where the chip component doesn’t gracefully handle null labels from the API. That’s what triggered the crash loop on iOS.
+
+Anita (CX): Our support volume tripled that day. Many users reported seeing the app crash immediately after typing two or more keywords.
+
+Karim (UX): I should’ve caught that. We changed the filter display logic to shorten long chip labels dynamically, but didn’t handle cases where no label existed at all.
+
+Priya (PM): Sounds like a blind spot in how we scoped the edge cases. How do we avoid this going forward?
+
+Ravi (QA): I’d recommend building an automated test for empty or malformed labels. Right now we don’t have guardrails for dynamic chip inputs.
+
+Chris (Analyst): I can also write a quick anomaly detector for crash spikes post-release. If the 95th percentile jumps in under 30 minutes, we trigger a rollback alert.
+
+Priya (PM): That’s solid. Let’s add it to our observability backlog.
+
+Anita (CX): Just to note — our NPS dropped to 6.9 that day. But once we patched it in 2.1.3.1, the complaints stopped.
+
+Karim (UX): That hotfix also removed the dynamic shortening logic entirely, right? We’ll need to reintroduce it later — but safely this time.
+
+Priya (PM): Yep, that’ll be part of Sprint 15. For now, focus on stability. Alright — Ravi to write regression tests for null chips. Chris to build the post-deploy monitor. Karim to revise chip shortening logic. Anita to prepare user-facing updates.
+
+Thanks team. Let’s treat this one as a lesson and move forward stronger.
+
+Meeting adjourned.

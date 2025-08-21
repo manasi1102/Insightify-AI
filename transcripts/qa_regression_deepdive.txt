@@ -1,0 +1,35 @@
+[2024-03-23 | QA Regression Deep Dive – Patch 2.1.4 Planning]
+
+Priya (PM): Thanks everyone. Let’s get into the regression failures from last night’s build. Ravi, can you walk us through the top issues?
+
+Ravi (QA): Sure. Out of 127 test cases, 7 failed. The biggest one — SmartSearch chips are disappearing when you tap rapidly between filters. That’s a UI render issue, likely a debounce misfire.
+
+Karim (UX): Yeah, I saw that in the build. Looks like the collapse animation is triggering before the redraw is complete. I can add a 200ms delay and smooth it out.
+
+Ravi (QA): That should work. We also flagged a logic bug — when a user toggles voice input and then hits backspace, the text buffer resets to null.
+
+Anita (CX): That matches what a few users reported — they said “my search just deletes itself after voice stops.”
+
+Chris (Analyst): I’ll check logs from the past week and try to isolate how often that sequence happens. It might only affect iOS 15 users.
+
+Priya (PM): Let’s assume it’s more widespread and patch it regardless. What’s the impact on test coverage?
+
+Ravi (QA): If Karim’s fix lands by EOD, I can rerun the full suite overnight. But we need at least 1 cycle on real devices — emulators didn’t catch the chip flicker last time.
+
+Karim (UX): Got it. I’ll prioritize the chip debounce fix and voice field fallback.
+
+Priya (PM): Anything else in the failed set?
+
+Ravi (QA): One edge case — users who lose internet mid-search are getting stuck on a loading spinner. The retry CTA isn’t showing.
+
+Anita (CX): That’s bad UX. We’ve had at least 12 tickets this month with people force-closing the app at that point.
+
+Karim (UX): I can add an offline fallback and force a timeout at 5 seconds. That way we can show a retry or “No internet” message.
+
+Chris (Analyst): Want me to add an event for that? Something like `search_retry_triggered`?
+
+Priya (PM): Yes, that’d help. Let’s wrap with action items: Karim fixes debounce and loading fallback. Ravi reruns QA tonight. Chris to log retry events. Anita to prep CX macros just in case we need to notify users.
+
+Thanks team — let’s aim for test pass by Thursday morning.
+
+Meeting adjourned.

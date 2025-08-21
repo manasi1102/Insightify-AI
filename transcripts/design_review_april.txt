@@ -1,0 +1,35 @@
+[2024-03-22 | Design Review – SmartSearch UI & Accessibility Enhancements]
+
+Priya (PM): Thanks for joining, team. Today’s focus is SmartSearch design polish — especially accessibility, dark mode, and filter UX. Karim, you want to start us off?
+
+Karim (UX): Sure. So we ran three usability tests last week with screen reader users. One consistent issue: the chip filter bar isn’t being announced properly in VoiceOver or TalkBack. It’s just skipped.
+
+Anita (CX): That’s huge. We’ve had several support tickets from visually impaired users — one even said, “It feels like the app doesn’t see me.”
+
+Karim (UX): Yeah, that one hit hard. I’ve updated the semantic roles and labels for the chip elements and added `aria-live` regions for dynamic chips.
+
+Ravi (QA): We’ll need to manually validate that on all platforms. Our automation doesn’t fully catch screen reader behavior.
+
+Priya (PM): Let’s make sure that validation is part of the accessibility checklist before next patch freeze.
+
+Chris (Analyst): I’ve also noticed dark mode engagement is low. Usage on iOS is solid, but Android dark mode has 18% lower task completion rates.
+
+Karim (UX): I think I know why — the contrast ratios in the filter panel drop below WCAG standards. I pushed a fix yesterday with bolder borders and darker greys.
+
+Ravi (QA): I can validate that in today’s device sweep. Any layout shifts we should be aware of?
+
+Karim (UX): Slightly. Filter chips now collapse into a scrollable tray on smaller screens. Also increased vertical spacing between sections for clarity.
+
+Priya (PM): Love it. Any updates on the error states for “No Results”?
+
+Anita (CX): Yes — we’ve gotten feedback that the “Try different keywords” message feels cold. We want to test a warmer variant: “Didn’t find what you’re looking for? Let’s try again together.”
+
+Karim (UX): That’s in the Figma mock. I’ll hand it off for review today.
+
+Priya (PM): Great. So for action items: Ravi to QA all accessibility roles + dark mode styles. Karim to finalize Figma handoff. Anita to work with Content on microcopy A/Bs. Chris — anything to track on your end?
+
+Chris (Analyst): I’ll track filter chip usage and success rate with the new layout, especially in dark mode cohorts.
+
+Priya (PM): Perfect. Let’s reconvene next Tuesday to check progress before the 2.1.4 push.
+
+Meeting adjourned.

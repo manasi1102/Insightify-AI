@@ -1,0 +1,33 @@
+[2024-03-27 | Mobile Performance Review – Latency & Load Time]
+
+Priya (PM): Let’s dive into mobile performance — we’ve been hearing mixed signals post-2.1.3. Chris, can you walk us through the numbers?
+
+Chris (Analyst): Sure. So average search latency increased by 220ms on Android and 130ms on iOS over the last two weeks. Most of it comes from cold starts and first interaction.
+
+Ravi (QA): We noticed the same during regression. The caching layer isn’t always firing correctly on the first search after app launch.
+
+Karim (UX): Could that be due to the animation blocking the thread? We added a transition overlay for the loading state — maybe it’s heavier than we thought.
+
+Chris (Analyst): Possible. I also profiled the timeline — the delay spikes just before the filter tray populates.
+
+Priya (PM): What about device types? Is this only on low-end phones?
+
+Chris (Analyst): Not exclusively. Even mid-range devices like the Galaxy A72 saw spikes. But the worst offenders are still entry-level Androids with less than 3GB RAM.
+
+Anita (CX): Support got 50+ complaints from users saying “search is laggy” or “freezes mid-scroll” — mostly Android, but a few iOS too.
+
+Ravi (QA): We can add instrumentation to measure time-to-interactive from cold start and post-filter tap. Right now we only log total search duration.
+
+Karim (UX): I can also optimize the filter tray animation — swap to a frame-skipping variant on low-spec devices.
+
+Priya (PM): Let’s do both. Anything else we’re missing?
+
+Chris (Analyst): One oddity — the SmartSearch onboarding screen causes a delay if users skip it too quickly. It seems the background fetch is being blocked.
+
+Karim (UX): I’ll rework that flow. Maybe we lazy-load SmartSearch results only after onboarding dismisses.
+
+Priya (PM): Sounds good. Wrapping up — Ravi to add performance instrumentation, Karim to optimize animation and onboarding load, Chris to break down latency by RAM tier. Anita, prep a CX update once we fix the lag.
+
+Thanks, everyone.
+
+Meeting adjourned.

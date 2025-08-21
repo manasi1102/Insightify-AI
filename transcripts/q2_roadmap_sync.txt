@@ -1,0 +1,31 @@
+[2024-03-25 | Q2 Roadmap Sync – Priorities & Experiments]
+
+Priya (PM): Alright team, let’s walk through the major items for Q2. This isn’t final-final yet, but we want alignment before we start scoping anything.
+
+Chris (Analyst): Based on usage data from Q1, the two biggest drop-off points are still search filters and post-query navigation. We need to simplify those flows or risk losing users during high intent.
+
+Karim (UX): That tracks. I’ve been sketching some concepts around progressive disclosure — basically hiding advanced filters by default and layering them in as needed.
+
+Priya (PM): Let’s prioritize that. Simpler search wins. What about SmartSearch personalization?
+
+Chris (Analyst): Good candidate for experimentation. We can A/B static results vs. context-aware ones based on recent activity.
+
+Ravi (QA): If that’s going into prod, we’ll need solid guardrails. Personalization logic is prone to regression if the fallback fails.
+
+Anita (CX): Support already gets confused users saying “Why did my search results change?” A/B is fine, but we’ll need in-app copy that explains it.
+
+Karim (UX): I can add a “Why am I seeing this?” link for test users. We can keep it subtle.
+
+Priya (PM): Awesome. Let’s run the experiment mid-Q2 after we lock down the filter redesign.
+
+Anita (CX): I’d also push for a proper “search history” screen. Users are asking how to revisit old searches, but we’re just caching them now — no UI.
+
+Karim (UX): That’s a low lift. We can reuse the saved items layout and just relabel it.
+
+Chris (Analyst): If we log `search_query_submitted` events with user ID, I can backfill histories for testing.
+
+Priya (PM): Let’s add it to the roadmap under low-effort / high-value wins. Okay, to wrap — filter redesign is top priority, SmartSearch personalization will be our main experiment, and search history UI is a fast follow.
+
+Thanks all. I’ll publish the updated roadmap doc by EOD.
+
+Meeting adjourned.

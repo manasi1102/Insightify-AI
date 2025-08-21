@@ -1,0 +1,33 @@
+[2024-03-24 | CX Feedback Roundup – Ticket Trends & User Friction]
+
+Priya (PM): Let’s get into this week’s CX roundup. Anita, what’s bubbling up in support tickets?
+
+Anita (CX): Volume jumped by 18% this week. Most of the spike came from two things — search freeze reports on Android 11 and confusion around saved search results disappearing.
+
+Ravi (QA): That freeze might be tied to the filter tray redraw bug from last sprint. We patched it for Pixel, but didn’t verify on older Samsung models.
+
+Chris (Analyst): I pulled crash logs tied to “ANR” events — 71% of them came from Galaxy A-series phones running Android 11 or 12.
+
+Priya (PM): That’s actionable. Ravi, can we fast-track QA for that config?
+
+Ravi (QA): I’ll spin up that test bench this afternoon.
+
+Anita (CX): On the second issue — users think saved searches vanish, but in reality, the “Recent” tab defaults to blank when offline. There’s no messaging.
+
+Karim (UX): Oof, bad UX. We can add a friendly fallback: “Looks empty? You might be offline or haven’t saved anything yet.”
+
+Priya (PM): Simple and clear. Let’s add that for 2.1.4.
+
+Chris (Analyst): Also, worth noting — users who hit the blank state have 41% lower re-engagement next session. It's subtle, but it’s costing us.
+
+Anita (CX): I’ll revise our support macros and also push a banner to let users know what’s going on post-patch.
+
+Karim (UX): One other thing from testing — voice search doesn’t visually indicate when it’s listening. Users aren’t sure if it’s on.
+
+Ravi (QA): We had that as a low-priority bug last quarter. I’ll bump it.
+
+Priya (PM): Let’s escalate it — even minor confusion can drive support load. Alright: Ravi tests Android 11 Samsung freeze, Karim updates “Recent” UI + voice indicator, Anita updates macros, Chris tracks blank-state behavior.
+
+Good job team. Let’s reduce that ticket volume.
+
+Meeting adjourned.

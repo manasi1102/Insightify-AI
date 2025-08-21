@@ -1,0 +1,33 @@
+[2024-03-28 | Voice Search Review – Accuracy & Language Coverage]
+
+Priya (PM): Today’s focus is voice search — we’ve had a few concerning drops in accuracy lately. Chris, what’s the latest?
+
+Chris (Analyst): Accuracy fell by 7.3% week-over-week, especially in noisy environments. Most of the drop came from Android users with older OS versions.
+
+Ravi (QA): We tested voice input on Android 10 and below — the mic permission prompt sometimes doesn’t appear at all. That blocks voice capture completely.
+
+Anita (CX): We’ve had 26 tickets where users said, “Voice search just doesn't work.” Many of them didn’t realize mic access was off — there's no fallback message.
+
+Karim (UX): We can add a toast message like: “We couldn't access your mic — check your permissions and try again.” Subtle but clear.
+
+Priya (PM): Let’s add that to Sprint 15. What about international users?
+
+Chris (Analyst): Good point — 18% of failed voice searches came from users with Spanish or Hindi device settings. We’re defaulting to English-only parsing right now.
+
+Ravi (QA): That might explain it. We never validated the fallback behavior for non-English inputs. If it can’t parse, it just returns an empty string silently.
+
+Anita (CX): That’s bad UX. We should return something like “We didn’t catch that — try again or type instead.”
+
+Karim (UX): I’ll mock up that state today. We can reuse the current empty-result graphic and just swap the text.
+
+Chris (Analyst): From a product perspective, supporting at least 3 more languages would improve coverage for 22% of our user base.
+
+Priya (PM): Let’s plan a phased rollout. English + Spanish + Hindi to start. Then expand.
+
+Ravi (QA): I’ll coordinate with the NLP vendor on available models and test accuracy for Hindi and Spanish inputs.
+
+Priya (PM): Awesome. To recap — Karim handles error states, Ravi checks permissions + multilingual fallback, Chris segments failure by locale, and Anita updates CX macros.
+
+Let’s improve that voice flow.
+
+Meeting adjourned.

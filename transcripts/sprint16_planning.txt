@@ -1,0 +1,33 @@
+[2024-04-01 | Sprint 16 Planning – Scope, Risks & Priorities]
+
+Priya (PM): Alright team, Sprint 16 kicks off today. Let’s align on what we’re tackling and flag any known risks. Karim, want to start with design?
+
+Karim (UX): Sure. Top item is the final version of the chip redesign — we’re improving tappable areas and spacing for smaller screens. I also need feedback on the new “No Results” state visuals.
+
+Anita (CX): I love the draft! It feels less robotic and more like the brand voice we’re aiming for. I’d suggest adding a microcopy hint like “Try fewer filters” underneath.
+
+Karim (UX): Done. I’ll drop that in before handoff.
+
+Priya (PM): Perfect. Ravi, how’s QA planning?
+
+Ravi (QA): We’re rerunning the full regression suite this week, especially after the crash in 2.1.3.1. I’ve also added test cases for voice search fallback and offline onboarding.
+
+Chris (Analyst): Great — from the data side, I’m working on segmenting SmartSearch outcomes by intent category. If we can classify intent types, we could personalize ranking better.
+
+Priya (PM): Love that. Can you work with Karim to tag some training examples?
+
+Chris (Analyst): Yep, I’ll slack you a sample set after the call.
+
+Anita (CX): One quick thing — we’ve seen a drop in in-app feedback form submissions. Could be that users don’t know where to find it anymore.
+
+Karim (UX): We moved it during the nav refresh. I’ll add a link to the settings panel this sprint.
+
+Priya (PM): Thanks. Okay, to summarize:
+- Karim delivers chip redesign and updates “No Results” UI + feedback discoverability
+- Ravi runs full regression + new test cases
+- Chris segments intent types with UX input
+- Anita updates support macros for search troubleshooting
+
+Let’s keep this one tight. Demo’s in two weeks and we want to lock by next Friday.
+
+Meeting adjourned.

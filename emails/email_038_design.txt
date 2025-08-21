@@ -1,0 +1,11 @@
+From: design@insightify.com
+To: team@insightify.com
+Date: 2024-04-17
+Subject: Style tweak request
+
+Hi team,
+
+Heading font weight on SmartSearch results is too heavy — affects readability.
+
+Thanks,  
+Design Team

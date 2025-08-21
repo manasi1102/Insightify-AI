@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-04-10
+Subject: Post-patch feedback
+
+Hi team,
+
+Good news — zero crash reports in the last 48 hours since patch 2.1.1. Still watching scroll behavior on iOS.
+
+Thanks,  
+Product Team

@@ -1,0 +1,14 @@
+From: priya.m@insightify.com
+To: product-team@insightify.com
+Date: 2024-03-11
+Subject: SmartSearch rollout – Android crash reports
+
+Hi team,
+
+We’ve received 27 crash reports on Android 13 devices since the v2.1 SmartSearch launch. QA traced it back to the auto-suggestion debounce logic. Engineering is already working on a patch.
+
+Please prioritize affected tickets and route them to Sprint 14 backlog. Let’s also notify the CX team so they can set expectations on the chat widget.
+
+Thanks,  
+Priya  
+Product Manager

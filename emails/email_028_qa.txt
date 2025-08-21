@@ -1,0 +1,11 @@
+From: qa@insightify.com
+To: team@insightify.com
+Date: 2024-04-07
+Subject: Search loop bug
+
+Hi team,
+
+One query caused recursive requests and timeout. Backend log: error 504, endpoint /suggest.
+
+Thanks,  
+Qa Team

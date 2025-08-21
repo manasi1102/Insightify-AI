@@ -1,0 +1,18 @@
+From: priya.m@insightify.com
+To: all-staff@insightify.com
+Date: 2024-03-20
+Subject: SmartSearch 2.1.1 patch notes
+
+Hi everyone,
+
+The 2.1.1 patch for SmartSearch goes live at 3 PM EST today.
+
+Fixes include:
+- Android crash (debounce logic)
+- Dark mode placeholder visibility
+- Zero-results UI fallback
+
+Thanks to CX, QA, and Design teams for the quick turnaround.
+
+Regards,  
+Priya

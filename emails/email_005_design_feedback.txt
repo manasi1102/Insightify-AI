@@ -1,0 +1,18 @@
+From: karim.d@insightify.com
+To: design-team@insightify.com
+Date: 2024-03-15
+Subject: UX pain points in SmartSearch modal
+
+Hey Design,
+
+Based on 2 usability sessions yesterday, a few notes:
+
+1. Users are confused by the dropdown “Filters” vs. “Tags” — can we visually separate them?
+2. Placeholder text “Search anything…” isn’t visible on dark mode.
+3. No clear error state when SmartSearch returns 0 results.
+
+Will log these in Figma comments too.
+
+Cheers,  
+Karim  
+UX Research

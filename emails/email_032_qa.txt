@@ -1,0 +1,11 @@
+From: qa@insightify.com
+To: team@insightify.com
+Date: 2024-04-11
+Subject: Random scroll freeze
+
+Hi team,
+
+Tested 10 times on v2.1.2 build — SmartSearch result scroll freezes in 2 out of 10 sessions. Likely async render issue.
+
+Thanks,  
+Qa Team

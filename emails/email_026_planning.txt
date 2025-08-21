@@ -1,0 +1,11 @@
+From: planning@insightify.com
+To: team@insightify.com
+Date: 2024-04-05
+Subject: Patch freeze reminder
+
+Hi team,
+
+Reminder: Code freeze for patch 2.1.2 is Friday 12 PM EST. Post that only hotfixes allowed.
+
+Thanks,  
+Planning Team

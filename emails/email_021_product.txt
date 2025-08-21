@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-03-31
+Subject: Release candidate feedback
+
+Hi team,
+
+RC3 seems stable. Only blocker left is the keyboard shortcut bug on Android. Will do a staging push by EOD.
+
+Thanks,  
+Product Team

@@ -1,0 +1,11 @@
+From: cx@insightify.com
+To: team@insightify.com
+Date: 2024-04-18
+Subject: Surge in weekend queries
+
+Hi team,
+
+We recorded a 60% increase in SmartSearch usage over the weekend — mostly first-time users.
+
+Thanks,  
+Cx Team

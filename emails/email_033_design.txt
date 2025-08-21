@@ -1,0 +1,11 @@
+From: design@insightify.com
+To: team@insightify.com
+Date: 2024-04-12
+Subject: Mobile spacing fix
+
+Hi team,
+
+Reduced padding request from DesignOps for small screen devices. Figma styles updated.
+
+Thanks,  
+Design Team

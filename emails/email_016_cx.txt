@@ -1,0 +1,11 @@
+From: cx@insightify.com
+To: team@insightify.com
+Date: 2024-03-26
+Subject: Voice query samples
+
+Hi team,
+
+Attached 20 anonymized audio clips where users faced voice recognition issues.
+
+Thanks,  
+Cx Team

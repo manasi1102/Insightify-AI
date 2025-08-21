@@ -1,0 +1,11 @@
+From: cx@insightify.com
+To: team@insightify.com
+Date: 2024-03-30
+Subject: Top complaint themes
+
+Hi team,
+
+Compiled top 5 themes: broken filters, missing docs, lag, UI confusion, and dark mode glitches.
+
+Thanks,  
+Cx Team

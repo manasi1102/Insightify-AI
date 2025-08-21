@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-04-07
+Subject: Search button clickthrough
+
+Hi team,
+
+New clickthrough metric for Search button shows a 17% lift post-onboarding changes. See dashboard link below.
+
+Thanks,  
+Product Team

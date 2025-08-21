@@ -1,0 +1,11 @@
+From: design@insightify.com
+To: team@insightify.com
+Date: 2024-03-27
+Subject: Filter chips overflow
+
+Hi team,
+
+When >3 filters selected, chips wrap inconsistently on Android. Need layout refactor.
+
+Thanks,  
+Design Team

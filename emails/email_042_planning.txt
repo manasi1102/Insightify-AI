@@ -1,0 +1,11 @@
+From: planning@insightify.com
+To: team@insightify.com
+Date: 2024-04-21
+Subject: Product-Design kickoff
+
+Hi team,
+
+Initial kickoff for SmartSearch UX revamp set for Monday 10 AM. Check shared Figma for notes.
+
+Thanks,  
+Planning Team

@@ -1,0 +1,16 @@
+From: karim.d@insightify.com
+To: product@insightify.com
+Date: 2024-03-19
+Subject: SmartSearch beta feedback — TestFlight cohort
+
+Hey all,
+
+The second batch of TestFlight users (31 testers) gave the following feedback:
+
+- Loved the new keyboard shortcut for filters
+- Confused by “Recent Searches” box overlap
+- Suggested changing result scroll direction on mobile
+
+Video snippets and heatmaps are in the Notion doc. We can discuss changes in Friday’s design sync.
+
+– Karim

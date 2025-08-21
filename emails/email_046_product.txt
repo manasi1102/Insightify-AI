@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-04-25
+Subject: Search relevance logs
+
+Hi team,
+
+Collected ~1,500 queries for manual review. Will help improve the re-ranking logic.
+
+Thanks,  
+Product Team

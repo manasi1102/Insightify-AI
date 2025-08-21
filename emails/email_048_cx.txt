@@ -1,0 +1,11 @@
+From: cx@insightify.com
+To: team@insightify.com
+Date: 2024-04-27
+Subject: Missing translation labels
+
+Hi team,
+
+Some users with Spanish locale are seeing SmartSearch suggestions in English. Likely fallback misconfiguration.
+
+Thanks,  
+Cx Team

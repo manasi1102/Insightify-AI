@@ -1,0 +1,11 @@
+From: cx@insightify.com
+To: team@insightify.com
+Date: 2024-03-22
+Subject: Request for translation fix ETA
+
+Hi team,
+
+Can localization team confirm fix ETA for Spanish SmartSearch headers?
+
+Thanks,  
+Cx Team

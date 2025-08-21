@@ -1,0 +1,11 @@
+From: qa@insightify.com
+To: team@insightify.com
+Date: 2024-04-24
+Subject: Regression set cleanup
+
+Hi team,
+
+Removed 6 outdated cases from SmartSearch regression set. New test matrix uploaded.
+
+Thanks,  
+Qa Team

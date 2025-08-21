@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-04-09
+Subject: Unexpected search timeout
+
+Hi team,
+
+We're seeing increased timeouts on long queries (>10 tokens) on SmartSearch. Latency spikes are mostly between 10 PM–12 AM PST.
+
+Thanks,  
+Product Team

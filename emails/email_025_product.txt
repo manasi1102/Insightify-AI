@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-04-04
+Subject: Multilingual query bug
+
+Hi team,
+
+Search results fail to load when queries are entered in French. Possibly encoding issue in indexer.
+
+Thanks,  
+Product Team

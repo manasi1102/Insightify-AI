@@ -1,0 +1,20 @@
+From: chris.a@insightify.com
+To: data-insights@insightify.com
+Date: 2024-03-18
+Subject: Drop in SmartSearch usage metrics
+
+Hi folks,
+
+SmartSearch query volume dropped by 18% week-over-week. Breakdown:
+
+- iOS: -9%
+- Android: -24%
+- Web: stable
+
+Initial hypothesis: crash issue on Android + lag in re-indexing caused poor user experience.
+
+Can someone validate session replay data from Mar 10–15?
+
+Cheers,  
+Chris  
+Product Analyst

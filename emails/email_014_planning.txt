@@ -1,0 +1,11 @@
+From: planning@insightify.com
+To: team@insightify.com
+Date: 2024-03-24
+Subject: Next quarter roadmap
+
+Hi team,
+
+Q2 priorities: improve personalization in SmartSearch, expand multilingual support, deprecate legacy cache.
+
+Thanks,  
+Planning Team

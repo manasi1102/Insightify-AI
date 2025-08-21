@@ -1,0 +1,11 @@
+From: cx@insightify.com
+To: team@insightify.com
+Date: 2024-04-13
+Subject: Weekend spike in feedback
+
+Hi team,
+
+Saturday saw a surge in negative reviews mentioning irrelevant results. Possibly tied to temporary re-indexing downtime?
+
+Thanks,  
+Cx Team

@@ -1,0 +1,20 @@
+From: meera.cx@insightify.com
+To: product-insights@insightify.com
+Date: 2024-03-14
+Subject: User sentiment from reviews (week 1 post-launch)
+
+Hi Insight Team,
+
+Just finished tagging 320 reviews from Play Store and App Store. Here’s a quick sentiment breakdown:
+
+- Positive: 61% – "Feels faster", "Accurate suggestions"
+- Neutral: 21% – "Same as old search"
+- Negative: 18% – "Can’t find recent docs", "Search stuck"
+
+Key complaint: results relevance drops when query includes numbers or dates (e.g. “invoice 2023”).
+
+Can we flag this to NLP team?
+
+Thanks,  
+Meera  
+CX Insights Analyst

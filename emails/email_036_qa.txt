@@ -1,0 +1,11 @@
+From: qa@insightify.com
+To: team@insightify.com
+Date: 2024-04-15
+Subject: Video artifact attached
+
+Hi team,
+
+Recorded 15s screen glitch on iPhone SE when switching filters rapidly.
+
+Thanks,  
+Qa Team

@@ -1,0 +1,18 @@
+From: ravi.qa@insightify.com
+To: engineering@insightify.com
+Date: 2024-03-13
+Subject: SmartSearch v2.1 Regression Summary
+
+Hey team,
+
+Here’s a quick summary of regression results on SmartSearch v2.1:
+
+- iOS: 12 passed / 1 failed (search history edge case)
+- Android: 9 passed / 3 failed (scrolling + keyboard input)
+
+Attaching session logs and screenshots in Jira [TCK-241 to TCK-252].  
+Escalating the input freeze bug to P1.
+
+Cheers,  
+Ravi  
+QA Engineer

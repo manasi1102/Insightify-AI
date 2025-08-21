@@ -1,0 +1,11 @@
+From: planning@insightify.com
+To: team@insightify.com
+Date: 2024-04-03
+Subject: Design sync recap
+
+Hi team,
+
+Reviewed mobile filter flow. Approved new error state design. ETA for implementation: 3 days.
+
+Thanks,  
+Planning Team

@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-03-28
+Subject: Mobile-only issue
+
+Hi team,
+
+Only Android 11 users are getting duplicated results on scroll. Not observed on iOS.
+
+Thanks,  
+Product Team

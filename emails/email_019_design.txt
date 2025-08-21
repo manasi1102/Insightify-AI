@@ -1,0 +1,11 @@
+From: design@insightify.com
+To: team@insightify.com
+Date: 2024-03-29
+Subject: Accessibility QA checklist
+
+Hi team,
+
+Reminder: color contrast and keyboard nav tests due before release.
+
+Thanks,  
+Design Team

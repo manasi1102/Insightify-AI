@@ -1,0 +1,11 @@
+From: design@insightify.com
+To: team@insightify.com
+Date: 2024-04-22
+Subject: Color contrast alert
+
+Hi team,
+
+Dark blue text on grey backgrounds failed contrast checker. Needs tweaking before QA pass.
+
+Thanks,  
+Design Team

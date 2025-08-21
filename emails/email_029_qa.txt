@@ -1,0 +1,11 @@
+From: qa@insightify.com
+To: team@insightify.com
+Date: 2024-04-08
+Subject: Hotfix validation status
+
+Hi team,
+
+SmartSearch hotfix validated on 3 device sets. No regressions found. Logs and videos in Jira.
+
+Thanks,  
+Qa Team

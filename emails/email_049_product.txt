@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-04-28
+Subject: Autocomplete drop-off
+
+Hi team,
+
+Users are abandoning the search input after first suggestion. Can we A/B test positioning?
+
+Thanks,  
+Product Team

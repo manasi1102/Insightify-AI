@@ -1,0 +1,11 @@
+From: qa@insightify.com
+To: team@insightify.com
+Date: 2024-04-14
+Subject: Keyboard freeze on Android
+
+Hi team,
+
+Pressing enter twice quickly in search field causes freeze. Seen in QA lab on Pixel 5.
+
+Thanks,  
+Qa Team

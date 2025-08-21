@@ -1,0 +1,11 @@
+From: design@insightify.com
+To: team@insightify.com
+Date: 2024-04-09
+Subject: Onboarding modal CTA
+
+Hi team,
+
+CTA button on SmartSearch onboarding looks too subtle. Can we boost contrast per accessibility audit?
+
+Thanks,  
+Design Team

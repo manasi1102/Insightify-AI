@@ -1,0 +1,17 @@
+From: priya.m@insightify.com
+To: smartsearch-core@insightify.com
+Date: 2024-03-16
+Subject: Follow-up from SmartSearch Sync #14
+
+Hi all,
+
+Thanks for attending today’s sync. Here are key action items:
+
+- Ravi to finalize P1 bug fixes for Android crash (TCK-248, TCK-249)
+- Meera to publish feedback summary on Notion
+- Karim + UX to push new wireframes by Tuesday
+
+We’ll aim to freeze the 2.1.1 patch by Friday.
+
+Best,  
+Priya

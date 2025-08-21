@@ -1,0 +1,15 @@
+From: anita.g@insightify.com
+To: cx-escalation@insightify.com
+Date: 2024-03-17
+Subject: Escalating ticket cluster: “search not loading”
+
+Hi team,
+
+We’ve had 70+ users report “Search loading forever” on cellular data. This pattern appears in tickets [CX-1832 to CX-1904].
+
+Could be a fallback issue with cached results. Recommending we prioritize these for triage.
+
+Flagging for backend support too.
+
+Thanks,  
+Anita

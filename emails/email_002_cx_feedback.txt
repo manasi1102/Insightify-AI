@@ -1,0 +1,14 @@
+From: anita.g@insightify.com
+To: cx-team@insightify.com
+Date: 2024-03-12
+Subject: Rising support queries post-launch
+
+Hi all,
+
+We saw a 34% spike in chat-based support queries after the v2.1 update. The most frequent issue: “SmartSearch returning no results” — especially for older accounts. I'm tagging 48 tickets under `smartsearch-fail`.
+
+Could someone from backend check if legacy index mapping is backward-compatible?
+
+Best,  
+Anita  
+CX Lead

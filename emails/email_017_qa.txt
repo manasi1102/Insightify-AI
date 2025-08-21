@@ -1,0 +1,11 @@
+From: qa@insightify.com
+To: team@insightify.com
+Date: 2024-03-27
+Subject: Safari-specific bug
+
+Hi team,
+
+SmartSearch box sometimes overlaps keyboard input field in Safari v16.2. Screenshot attached.
+
+Thanks,  
+Qa Team

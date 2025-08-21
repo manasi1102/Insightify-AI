@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-03-22
+Subject: Search results ordering
+
+Hi team,
+
+A few users reported that the new search ranking logic is showing older documents first. Can we double-check scoring weights?
+
+Thanks,  
+Product Team

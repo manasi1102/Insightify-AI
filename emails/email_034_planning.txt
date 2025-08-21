@@ -1,0 +1,11 @@
+From: planning@insightify.com
+To: team@insightify.com
+Date: 2024-04-13
+Subject: SmartSearch goals for Q3
+
+Hi team,
+
+Expand to 3 new markets, cut latency by 30%, integrate with chat.
+
+Thanks,  
+Planning Team

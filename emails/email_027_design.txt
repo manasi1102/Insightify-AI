@@ -1,0 +1,11 @@
+From: design@insightify.com
+To: team@insightify.com
+Date: 2024-04-06
+Subject: UX writing change
+
+Hi team,
+
+Suggest changing 'No results found' to something softer like 'Try another keyword'.
+
+Thanks,  
+Design Team

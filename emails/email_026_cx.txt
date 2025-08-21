@@ -1,0 +1,11 @@
+From: cx@insightify.com
+To: team@insightify.com
+Date: 2024-04-05
+Subject: Customer call: enterprise tier
+
+Hi team,
+
+Our top-tier client 'CloudSpan' escalated search performance in their dashboard. Requesting SLAs.
+
+Thanks,  
+Cx Team

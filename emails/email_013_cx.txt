@@ -1,0 +1,11 @@
+From: cx@insightify.com
+To: team@insightify.com
+Date: 2024-03-23
+Subject: Feedback export ready
+
+Hi team,
+
+CSV of last 7 days' feedback is ready on Google Drive. Includes sentiment tags.
+
+Thanks,  
+Cx Team

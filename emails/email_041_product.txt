@@ -1,0 +1,11 @@
+From: product@insightify.com
+To: team@insightify.com
+Date: 2024-04-20
+Subject: Cache rollout verification
+
+Hi team,
+
+Please confirm if cache pre-warming has been deployed to 100% of user base or still at 25% bucket.
+
+Thanks,  
+Product Team

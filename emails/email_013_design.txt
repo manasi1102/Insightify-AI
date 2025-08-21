@@ -1,0 +1,11 @@
+From: design@insightify.com
+To: team@insightify.com
+Date: 2024-03-23
+Subject: Wireframe feedback
+
+Hi team,
+
+Can we add a placeholder animation for 'no results' state? Currently feels broken when nothing is returned.
+
+Thanks,  
+Design Team

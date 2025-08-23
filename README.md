@@ -19,7 +19,7 @@ We built it to:
 | Layer        | Tools Used                       |
 | ------------ | -------------------------------- |
 | Pre-processing |Python, PyMuPDF, pdfplumber, jsonlines                    |
-| Embeddings      | Hugging Face BAAI/bge-base-en-v1.5, Sentence Transformers |
+| Embeddings      | Hugging Face, Sentence Transformers/ all-MiniLM-L6-v2|
 | Indexing   | FAISS               |
 | Retrieval   | Semantic similarity search with FAISS                           |
 | Generation  | Hugging Face Transformers (google/flan-t5-base, google/flan-t5-large)   |

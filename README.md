@@ -1,4 +1,4 @@
-## Insightify – AI Knowledge Assistant
+## Insightify – RAG Based AI Knowledge Assistant
 > This project simulates how companies can turn unstructured internal documents into searchable insights using a Retrieval-Augmented Generation (RAG) pipeline. It’s designed for real-world enterprise documents—emails, feedback, reports—not just open web content.
  
 ## Project Overview
